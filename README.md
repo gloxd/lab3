@@ -39,5 +39,27 @@
 
 <img width="742" height="113" alt="image" src="https://github.com/user-attachments/assets/00fa12b3-8004-4ffb-bce1-8c3b704b3db3" />
 
-   
+# Задание 3
+
+### Текст задачи
+
+Вывести первый по алфавиту файл в указанном каталоге.
+
+### Алгоритм для задания 1
+1. Получить путь к каталогу от пользователя
+2. Проверить существование каталога
+3. Получить все файлы в каталоге через Directory.GetFiles
+4. Преобразовать полные пути в имена файлов
+5. Отфильтровать null-значения
+6. Отсортировать по алфавиту через Seq.sort
+7. Взять первый элемент через Seq.tryHead
+8. Вывести результат или сообщение об ошибке
+
+ ### Тестирование
+
+<img width="576" height="63" alt="image" src="https://github.com/user-attachments/assets/55ba02ce-92d4-4e70-8717-b968679c5aaa" />
+<img width="626" height="255" alt="image" src="https://github.com/user-attachments/assets/3cbb2e9e-faa2-4675-abea-cbb8d99661eb" />
+
+
+
 
